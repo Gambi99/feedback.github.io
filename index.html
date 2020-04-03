@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="/img/Logo-Atomy.png" type="image/x-icon">
+  <link rel="stylesheet" href="stile.css">
+  <title>Welcome to Atomy Russia</title>
+</head>
+<body>
+
+
+<!----------------------------------------------------------------1----------------------------------------------------------------------->
+<div class="container-all">   
+
+<div class="container-not-all">
+  
+    <div class="container-fluid">
+    <div class="row  justify-content-center">
+        <div class="col-sm-12 col-md-8 col-lg-7 col-xl-4">
+  
+        
+              <form enctype="multipart/form-data" action="contacts.php" class="pb-1 mb-4 main-form needs-validation" method="post" id="feedback-form">  
+              <div class="text-center pt-4"><img src="img/Logo-Atomy.png" width="202px" height="100px"></div>                
+              <div class="row  justify-content-center">
+              <h4 class="text-center p-3">Обратная связь</h4>
+              </div>
+  
+    <div class="form-group">
+    <div class="col-sm-12">
+    <input type="email" class="form-control" id="contactFF" x-autocompletetype="email" name="contactFF" required placeholder="Email">
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    </div>
+    </div>
+
+
+    
+    <div class="form-group">
+    <div class="col-sm-12">
+    <input type="text" class="form-control" id="idnumber" name="idnumber" required placeholder="Ваш ID" x-autocompletetype="tre" >
+    <span class="glyphicon form-control-feedback" aria-hidden="idnumber"></span>
+    </div>
+    </div>
+
+    <div class="form-group">
+    <div class="col-sm-12">
+    <input type="text" class="form-control" id="fio" name="fio" required placeholder="ФИО" x-autocompletetype="fio" >
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    </div>
+    </div>
+    
+
+    <div class="form-group">
+    <div class="col-sm-12">
+    <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Телефон"  x-autocompletetype="phone" >
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+    </div>
+    </div>
+    
+<!---------------------------------------------------------------8------------------------------------------------------------------------>
+
+    <div class="form-group">
+      <div class="col-sm-12">
+          
+          <div class="custom-file">
+          <input type="file" class="custom-file-input" multiple id="fileFF" name="fileFF[]" class="w100" >
+          <label class="custom-file-label"  for="fileFF" data-browse="Загрузка">Загрузите файл</label>
+          </div>
+      <br>
+      <br>
+          
+      </div>
+      </div>
+  
+  <!--------------------------------------------------------------10------------------------------------------------------------------------>
+
+<!---------------------------------------------------------------8------------------------------------------------------------------------>
+
+            <div class="form-group">
+            <div class="col-sm-12">
+            <textarea name="messageFF" id="messageFF" required rows="5" class="form-control" placeholder="Опишите ситуацию" ></textarea>
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            </div>
+            </div>
+
+<!--------------------------------------------------------------10------------------------------------------------------------------------>
+
+     
+    <div class="form-group button-1">
+    <div class="col-sm-offset-2 col-sm-6">            
+    <button type="submit"id="submitFF" class="btn btn-success col" value="Отправить">Отправить</button>
+    </div>
+    </div>  
+    </form> 
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+<!--------------------------------------------------------------11------------------------------------------------------------------------->
+<script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<script src="script.js"></script>
+</body>
+</html>

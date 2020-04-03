@@ -1,0 +1,91 @@
+html,body{
+  height: 100%;
+  max-width: 100%;
+  background-color: #89cfeb;
+}
+
+.container-all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-not-all{
+    height: auto;
+    width: 100%;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+h4{
+    font-size: 35px;
+}
+
+#messageFF{
+    max-height: 100px;
+    min-height: 25px;
+}
+#feedback-form{
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.25), 50px 30px 10px rgba(0,0,0,0.22);
+}
+ 
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*********************************************************/
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h4{
+      font-size: 22px;
+  }
+  #feedback-form{
+      box-shadow: none;
+  }
+  .container-fluid{
+      height: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h4{
+      font-size: 22px;
+  }
+  #feedback-form{
+      box-shadow: none;
+  }
+  .container-fluid{
+      height: 45rem;
+  }
+}
+@media  (min-width: 576px) and (max-width: 767.98px) {
+    h4{
+        font-size: 22px;
+    }
+    #feedback-form{
+        box-shadow: none;
+    }
+    .container-fluid{
+        height: 38rem;
+    }
+}
+@media (min-width: 320px) and (max-width: 570px){
+    h4{
+        font-size: 20px;
+    }
+    #feedback-form{
+        box-shadow: none;
+    }
+     .container-all{
+       height: 57rem;
+    }
+
+}
+
