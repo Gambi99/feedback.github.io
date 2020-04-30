@@ -1,8 +1,8 @@
 <?php
 if (isset ($_POST['contactFF'])) {
-  $to = "info@atomydoc.ru"; 
+  $to = "your adress email"; 
   $from = $_POST['contactFF'];
-  $e_mail = "info@atomydoc.ru";
+  $e_mail = "your adress email";
   $subject ="ID:".$_POST['idnumber'].", Обращения";
   $message = "Email: ".$from. "\nID: " .$_POST['idnumber']. "\nФИО: " .$_POST['fio']. "\nТелефон: " .$_POST['phone']. "\nСообщение: ".$_POST['messageFF'];
 
